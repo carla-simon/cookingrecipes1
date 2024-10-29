@@ -1,0 +1,25 @@
+.container {
+    width: 700px;
+    margin: 0 auto; /* Centre horizontalement */
+    padding: 20px; /* Ajoute de l'espace intérieur */
+    text-align: center; /* Centre le texte à l'intérieur */
+    box-sizing: border-box; /* Inclut le padding dans la largeur */
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
